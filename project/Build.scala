@@ -5,7 +5,7 @@ object CagetteBuild extends Build {
 
 	val main = Project(id = "cagette", base = file(".")).settings(
 		scalaVersion := "2.10.0",
-		version := "0.3",
+		version := "0.4-SNAPSHOT",
 		organization := "guillaume.bort",
 
 		libraryDependencies += "org.specs2" %%   "specs2" % "1.14" % "test",
