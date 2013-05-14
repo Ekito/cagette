@@ -1,5 +1,7 @@
 package cagette
 
+import scala.language.reflectiveCalls
+
 // --- Identifier stuff
 
 @scala.annotation.implicitNotFound(
