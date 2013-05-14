@@ -9,13 +9,13 @@ Cagette is a quick and dirty data store for prototyping. It allows to focus on d
 Configure a new resolver:
 
 ```scala
-resolvers += "Guillaume Bort" at "http://guillaume.bort.fr/repository"
+resolvers += "Ekito" at "https://raw.github.com/Ekito/maven-repo/master/releases"
 ```
 
 Add the library dependency:
 
 ```scala
-libraryDependencies += "guillaume.bort" %% "cagette" % "0.2"
+libraryDependencies += "guillaume.bort" %% "cagette" % "0.3"
 ```
 
 ## Using – as easy as 1,2,3
